@@ -1,0 +1,816 @@
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:30:26 +0200
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/emails" for 127.0.0.1 at 2023-06-01 17:35:20 +0200
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:36:44 +0200
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:38:31 +0200
+  
+ActiveRecord::NoDatabaseError (We could not find your database: test_ajax_rails_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (280.9ms)[0m  [1m[35mCREATE DATABASE "test_ajax_rails_development" ENCODING = 'unicode'[0m
+  [1m[35m (146.1ms)[0m  [1m[35mCREATE DATABASE "test_ajax_rails_test" ENCODING = 'unicode'[0m
+  [1m[35m (15.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5455622876523896055)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmails (20230601152327)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.7ms)[0m  [1m[35mCREATE TABLE "emails" ("id" bigserial primary key, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230601152327"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-06-01 15:39:35.876429"], ["updated_at", "2023-06-01 15:39:35.876429"]]
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(5455622876523896055)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:39:50 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 734)
+Completed 200 OK in 31ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 7500)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:40:00 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.4ms | Allocations: 454)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 1368)
+
+
+Started GET "/emails" for 127.0.0.1 at 2023-06-01 17:40:02 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/emails"):
+  
+Started GET "/emails" for 127.0.0.1 at 2023-06-01 17:42:00 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 552.1ms | Allocations: 90429)
+Completed 200 OK in 557ms (Views: 554.9ms | ActiveRecord: 0.0ms | Allocations: 91544)
+
+
+Started GET "/emails" for 127.0.0.1 at 2023-06-01 17:43:15 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2351)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2423)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 3497)
+
+
+  
+ActionView::Template::Error (undefined method `sort' for nil:NilClass):
+    26:         </div>
+    27:       </div>
+    28:       <%= turbo_frame_tag "new_email" do %>
+    29:         <% @emails.sort.reverse_each do |email| %>
+    30:           <%= render 'email', email: email%>
+    31:         <% end %>
+    32:       <% end %>
+  
+app/views/emails/index.html.erb:29
+app/views/emails/index.html.erb:28
+Started GET "/emails" for 127.0.0.1 at 2023-06-01 17:43:42 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2207)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2279)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3333)
+
+
+  
+ActionView::Template::Error (undefined method `sort' for nil:NilClass):
+    22:         </div>
+    23:       </div>
+    24:       <%= turbo_frame_tag "new_email" do %>
+    25:         <% @emails.sort.reverse_each do |email| %>
+    26:           <%= render 'email', email: email%>
+    27:         <% end %>
+    28:       <% end %>
+  
+app/views/emails/index.html.erb:25
+app/views/emails/index.html.erb:24
+Started GET "/emails" for 127.0.0.1 at 2023-06-01 17:44:09 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 119)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 2831)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 3922)
+
+
+Started GET "/emails" for 127.0.0.1 at 2023-06-01 17:44:51 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 2839)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 3926)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:44:54 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2393)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2708)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:45:35 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 346)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3029)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 4120)
+
+
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 17:45:37 +0200
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for EmailsController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.5) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.5) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.5) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:45:39 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2387)
+Completed 200 OK in 22ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2702)
+
+
+Started DELETE "/emails/4" for 127.0.0.1 at 2023-06-01 17:45:40 +0200
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for EmailsController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.5) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.5) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.5) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:48:59 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 386)
+  Rendered layout layouts/application.html.erb (Duration: 149.9ms | Allocations: 35244)
+Completed 200 OK in 171ms (Views: 156.4ms | ActiveRecord: 0.0ms | Allocations: 41775)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-01 17:57:33 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 14006)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms | Allocations: 14749)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-01 18:09:33 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2765)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2850)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms | Allocations: 9329)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9: 
+    10: <%= turbo_frame_tag "new_email" do %>
+    11: <ul id="email-list">
+    12:     <% @emails.each do |email| %>
+    13:         <li>"<%= email.object %>" by <b><%= email.body%><b></li>
+    14:     <%end%>
+    15: </ul>
+  
+app/views/emails/index.html.erb:12
+app/views/emails/index.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-06-01 18:09:36 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1421)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1493)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1778)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9: 
+    10: <%= turbo_frame_tag "new_email" do %>
+    11: <ul id="email-list">
+    12:     <% @emails.each do |email| %>
+    13:         <li>"<%= email.object %>" by <b><%= email.body%><b></li>
+    14:     <%end%>
+    15: </ul>
+  
+app/views/emails/index.html.erb:12
+app/views/emails/index.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-06-01 18:10:56 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:12
+  Rendered emails/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1223)
+  Rendered layout layouts/application.html.erb (Duration: 158.9ms | Allocations: 35282)
+Completed 200 OK in 172ms (Views: 159.1ms | ActiveRecord: 1.2ms | Allocations: 36689)
+
+
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:10:57 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2521)
+
+
+  
+NameError (uninitialized constant EmailsController::Faker):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:10:58 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+  
+NameError (uninitialized constant EmailsController::Faker):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:10:59 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2442)
+
+
+  
+NameError (uninitialized constant EmailsController::Faker):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:11:00 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2442)
+
+
+  
+NameError (uninitialized constant EmailsController::Faker):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:13:04 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+  
+NameError (uninitialized constant EmailsController::Faker):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:13:04 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+  
+NameError (uninitialized constant EmailsController::Faker):
+  
+app/controllers/emails_controller.rb:10:in `create'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5455622876523896055)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20230601162042)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (22.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230601162042"]]
+  [1m[36mTRANSACTION (9.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5455622876523896055)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-06-01 18:23:22 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.8ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:12
+  Rendered emails/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1917)
+  Rendered layout layouts/application.html.erb (Duration: 106.5ms | Allocations: 37131)
+Completed 200 OK in 3266ms (Views: 113.8ms | ActiveRecord: 0.8ms | Allocations: 1389011)
+
+
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:23:27 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 11.8ms | Allocations: 16002)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'object' for Email.):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-06-01 18:23:29 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 258)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 724)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 29.6ms | Allocations: 5096)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 7511)
+Completed 200 OK in 63ms (Views: 40.1ms | ActiveRecord: 9.3ms | Allocations: 24709)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-06-01 18:23:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 2.7ms | Allocations: 459)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 16.3ms | Allocations: 2686)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 5093)
+Completed 200 OK in 54ms (Views: 39.5ms | ActiveRecord: 0.0ms | Allocations: 7144)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-06-01 18:23:32 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 82)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1188)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 3519)
+Completed 200 OK in 33ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 4173)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-06-01 18:23:36 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 82)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1188)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 3518)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 4155)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-06-01 18:23:38 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 138)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 10.3ms | Allocations: 1212)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 3534)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 4252)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-06-01 18:23:39 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 82)
+  Rendered /Users/elzo667/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1187)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 3533)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 4171)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-06-01 18:23:56 +0200
+Processing by Devise::RegistrationsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"elzo@hotmail.fr", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (15.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (88.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "elzo@hotmail.fr"], ["LIMIT", 1]]
+  [1m[36mUser Create (11.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "elzo@hotmail.fr"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-06-01 16:23:57.380120"], ["updated_at", "2023-06-01 16:23:57.380120"]]
+  [1m[36mTRANSACTION (78.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 644ms (ActiveRecord: 193.7ms | Allocations: 12351)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-01 18:23:57 +0200
+Processing by EmailsController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.9ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:12
+  Rendered emails/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 972)
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:15
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 4410)
+Completed 200 OK in 47ms (Views: 34.3ms | ActiveRecord: 9.6ms | Allocations: 4790)
+
+
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:24:01 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1301)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'object' for Email.):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:24:03 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1292)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'object' for Email.):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started GET "/" for 127.0.0.1 at 2023-06-01 18:27:23 +0200
+Processing by EmailsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:12
+  Rendered emails/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 979)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:15
+  Rendered layout layouts/application.html.erb (Duration: 45.3ms | Allocations: 4031)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 1.1ms | Allocations: 4361)
+
+
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:27:25 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1346)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'object' for Email.):
+  
+app/controllers/emails_controller.rb:10:in `create'
+Started POST "/emails" for 127.0.0.1 at 2023-06-01 18:27:26 +0200
+Processing by EmailsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1314)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'object' for Email.):
+  
+app/controllers/emails_controller.rb:10:in `create'
